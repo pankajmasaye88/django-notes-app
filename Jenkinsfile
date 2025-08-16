@@ -22,6 +22,7 @@ pipeline{
         stage("Deploy"){
             steps{
                 deploy()
+                echo "I hope deployment is successfully completed"
             }
         }
         
